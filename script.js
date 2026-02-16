@@ -8,3 +8,7 @@ function Place(location, landmarks, timeOfYear, notes){
 }
 // assigning the ids
 Place.currentId = 0;
+Place.assignId = function(){
+Place.currentId +=1;
+return Place.currentId;
+};

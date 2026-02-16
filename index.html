@@ -1,50 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Places I've Been</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Places Visited</title>
 </head>
 <body>
-
-  <header>
-    <h1>Places I've Been</h1>
-  </header>
-
-  <main>
-
-    <section class="form-section">
-      <h2>Add a New Place</h2>
-
-      <form id="placeForm">
-        <input type="text" id="location" placeholder="Location" required>
-
-        <input type="text" id="landmarks" 
-               placeholder="Memorable Places">
-
-        <input type="date" id="timeOfYear">
-
-        <textarea id="notes" 
-                  placeholder="Notes"></textarea>
-
-        <button type="submit">Add Place</button>
-      </form>
-    </section>
-
-    <section class="list-section">
-      <h2>My Destinations</h2>
-      <ul id="placesList"></ul>
-    </section>
-
-    <section class="details-section">
-      <h2>Place Details</h2>
-      <div id="placeDetails">
-        <p>Select a place to view details.</p>
-      </div>
-    </section>
-
-  </main>
-
-  <script src="script.js"></script>
+    <header>
+        <h1>Places I've Been</h1>
+    </header>
+    <main>
+        <section class="form-section">
+            <h2>Add a New Place</h2>
+            <form id="placeForm">
+                <input type="text" id="location" placeholder="Location" required>
+                <input type="text" id="landmarks" placeholder="Places Visited">
+                <input type="date"  id="timeOfYear">
+                <textarea id="notes" placeholder="Memorable Events"></textarea> 
+                <button type="submit">Add Place</button>
+            </form>
+        </section>
+    </main>
 </body>
 </html>

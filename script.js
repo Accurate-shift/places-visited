@@ -12,3 +12,17 @@ Place.assignId = function(){
 Place.currentId +=1;
 return Place.currentId;
 };
+// adding and viewing logic
+Place.prototype.getSummary = function(){
+    return `${this.location}(${this.timeOfYear})`;
+};
+Place.prototype.getDetails = funtion(){
+    return`
+            Location:${this.location}
+            Time of Year:${this.timeOfYear}
+            Landmarks:${this.landmarks}
+            Notes:${this.notes} `;
+};
+Place.prototype.addLandmark = function(landmark){
+    this.landmark.push(landmark);
+};

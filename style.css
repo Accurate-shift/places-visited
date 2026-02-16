@@ -112,9 +112,6 @@ li:hover {
   background-color: #e0e0e0;
   transform: translateX(4px);
 }
-
-/* ===== DETAILS ===== */
-
 .details-section {
   white-space: pre-line;
   line-height: 1.6;

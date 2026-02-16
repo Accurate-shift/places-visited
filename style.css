@@ -55,8 +55,6 @@ h2 {
   padding-bottom: 5px;
 }
 
-/* ===== FORM ===== */
-
 form input,
 form textarea {
   width: 100%;
@@ -75,8 +73,6 @@ form textarea:focus {
   background-color: #ffffff;
 }
 
-/* Button */
-
 form button {
   width: 100%;
   padding: 10px;
@@ -92,9 +88,6 @@ form button {
 form button:hover {
   background-color: #4a4a4a;
 }
-
-/* ===== LIST ===== */
-
 ul {
   list-style: none;
 }

@@ -1,7 +1,3 @@
-// ========================
-// BUSINESS LOGIC
-// ========================
-
 function Place(location, landmarks, timeOfYear, notes) {
   this.location = location;
   this.landmarks = landmarks;
@@ -34,8 +30,6 @@ Place.prototype.addLandmark = function (landmark) {
   this.landmarks.push(landmark);
 };
 
-// Storage Object
-
 function PlaceBook() {
   this.places = {};
 }
@@ -55,11 +49,6 @@ PlaceBook.prototype.deletePlace = function (id) {
   }
   return false;
 };
-
-// ========================
-// UI LOGIC
-// ========================
-
 const book = new PlaceBook();
 
 function displayPlaces() {

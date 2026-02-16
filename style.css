@@ -40,8 +40,18 @@ form input, form textarea{
     width: 100%;
     margin-bottom: 12px;
     margin-top: 5px;
-    border-radius:0 8px 8px 8px;
     border: 1px solid #dcdcdc;
     background-color: #fafafa;
+    border: none;
     transition: border 0.2s ease, background 0.2s ease; 
+}
+form input:focus, form textarea:focus{
+    outline: none;
+    border-color: #ffffff;
+}
+form button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
 }
